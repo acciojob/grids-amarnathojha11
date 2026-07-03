@@ -1,2 +1,40 @@
 
 /* Your CSS Code here. */
+#container{
+    width:600px;
+    border:5px solid rgb(4,255,4);
+    background:rgb(41,0,0);
+}
+
+.row{
+    height:200px;
+    border:5px solid rgb(255,188,188);
+}
+
+.row>div{
+    border:2px dotted rgb(38,38,43);
+}
+
+/* Row 1 */
+.row:nth-child(1)>div:nth-child(1){
+    background:teal;
+}
+.row:nth-child(1)>div:nth-child(2){
+    background:thistle;
+}
+
+/* Row 2 */
+.row:nth-child(2)>div:nth-child(1){
+    background:tomato;
+}
+.row:nth-child(2)>div:nth-child(2){
+    background:turquoise;
+}
+
+/* Row 3 */
+.row:nth-child(3)>div:nth-child(1){
+    background:violet;
+}
+.row:nth-child(3)>div:nth-child(2){
+    background:yellowgreen;
+}
